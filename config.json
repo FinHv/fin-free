@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "101.15.21.15",
+    "port": 5050,
+    "ssl": true,
+    "nickname": "NiNJA",
+    "connectstring": "somename/ninja:randompassword",
+    "channels": [
+      { "name": "#free-chat", "blowfishKey": "somecbckey" },
+      { "name": "#free-staff", "blowfishKey": "somecbckey" }
+    ]
+  },
+  "disks": {
+    "incoming": {
+      "devices": ["/dev/nvme0n1p1"], 
+      "ircName": "RACE"
+    },
+    "archive": {
+      "devices": ["/dev/sda5", "/dev/sdc1", "/dev/sdb1", "/dev/sdd1", "192.168.1.150:/volume4/ARCHiVE1","192.168.1.151:/volume8/ARCHiVE2"],
+      "ircName": "ARCHIVE"
+    }
+  }
+}
